@@ -1,16 +1,16 @@
 Artifactory:
-  server: partnership.jfrog.io #change to your servername
+  server: jfrogtzago.jfrog.io #change to your servername
   intName: artifactory_integration
   devRepo: workshop-docker-local
   prodRepo: workshop-docker-prod-local
 GitHub:
-  path: jfrogtraining/aws-eks-workshop #change to your github username
+  path: tzago/aws-eks-workshop #change to your github username
   gitProvider: github_integration
 AWS:
   intName: aws_integration
   eks: eks_integration
   region: us-west-2
 app:
-  dockerImageName: partnership.jfrog.io/workshop-docker/eks-workshop-app #change to your servername
+  dockerImageName: jfrogtzago.jfrog.io/workshop-docker/eks-workshop-app #change to your servername
   dockerFileLocation: workshop-app
   buildName: eks-workshop-app
