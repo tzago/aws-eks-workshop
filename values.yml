@@ -8,7 +8,7 @@ GitHub:
   gitProvider: github_integration
 AWS:
   intName: aws_integration
-  eks: eks_integration
+  eks: aws_integration
   region: us-west-2
 app:
   dockerImageName: jfrogtzago.jfrog.io/workshop-docker/eks-workshop-app #change to your servername
